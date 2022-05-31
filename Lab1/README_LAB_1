@@ -1,0 +1,13 @@
+
+Before openinng Jupyter Notebook, create python environment usnig below commands
+
+#Command to create virtual environment
+$conda create -n ai_workshop python=3.8
+
+#Command to activate environment
+$conda activate ai_workshop
+
+
+#Some of the dependant packages to be installed
+$conda install -c conda-forge jupyterlab
+$conda install nb_conda_kernels
