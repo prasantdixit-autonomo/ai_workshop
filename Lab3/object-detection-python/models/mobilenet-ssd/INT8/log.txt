@@ -1,0 +1,48 @@
+INFO:openvino.tools.pot.app.run:Output log dir: models/mobilenet-ssd/INT8/
+INFO:openvino.tools.pot.app.run:Creating pipeline:
+ Algorithm: DefaultQuantization
+ Parameters:
+	stat_subset_size           : 10
+	target_device              : CPU
+	preset                     : performance
+	model_type                 : None
+	dump_intermediate_model    : False
+	inplace_statistics         : True
+	exec_log_dir               : models/mobilenet-ssd/INT8/
+ ===========================================================================
+INFO:openvino.tools.pot.pipeline.pipeline:Inference Engine version:                2022.1.0-7009-19bdd019745-refs/pull/1012/head
+INFO:openvino.tools.pot.pipeline.pipeline:Model Optimizer version:                 2022.1.0-7009-19bdd019745-refs/pull/1012/head
+INFO:openvino.tools.pot.pipeline.pipeline:Post-Training Optimization Tool version: 2022.1.0-7009-19bdd019745-refs/pull/1012/head
+INFO:openvino.tools.pot.statistics.collector:Start computing statistics for algorithms : DefaultQuantization
+INFO:openvino.tools.pot.statistics.collector:Computing statistics finished
+INFO:openvino.tools.pot.pipeline.pipeline:Start algorithm: DefaultQuantization
+INFO:openvino.tools.pot.algorithms.quantization.default.algorithm:Start computing statistics for algorithm : ActivationChannelAlignment
+INFO:openvino.tools.pot.algorithms.quantization.default.algorithm:Computing statistics finished
+INFO:openvino.tools.pot.algorithms.quantization.default.algorithm:Start computing statistics for algorithms : MinMaxQuantization,FastBiasCorrection
+INFO:openvino.tools.pot.algorithms.quantization.default.algorithm:Computing statistics finished
+INFO:openvino.tools.pot.pipeline.pipeline:Finished: DefaultQuantization
+ ===========================================================================
+INFO:openvino.tools.pot.app.run:Output log dir: models/mobilenet-ssd/INT8/
+INFO:openvino.tools.pot.app.run:Creating pipeline:
+ Algorithm: DefaultQuantization
+ Parameters:
+	stat_subset_size           : 10
+	target_device              : CPU
+	preset                     : performance
+	model_type                 : None
+	dump_intermediate_model    : False
+	inplace_statistics         : True
+	exec_log_dir               : models/mobilenet-ssd/INT8/
+ ===========================================================================
+INFO:openvino.tools.pot.pipeline.pipeline:Inference Engine version:                2022.1.0-7009-19bdd019745-refs/pull/1012/head
+INFO:openvino.tools.pot.pipeline.pipeline:Model Optimizer version:                 2022.1.0-7009-19bdd019745-refs/pull/1012/head
+INFO:openvino.tools.pot.pipeline.pipeline:Post-Training Optimization Tool version: 2022.1.0-7009-19bdd019745-refs/pull/1012/head
+INFO:openvino.tools.pot.statistics.collector:Start computing statistics for algorithms : DefaultQuantization
+INFO:openvino.tools.pot.statistics.collector:Computing statistics finished
+INFO:openvino.tools.pot.pipeline.pipeline:Start algorithm: DefaultQuantization
+INFO:openvino.tools.pot.algorithms.quantization.default.algorithm:Start computing statistics for algorithm : ActivationChannelAlignment
+INFO:openvino.tools.pot.algorithms.quantization.default.algorithm:Computing statistics finished
+INFO:openvino.tools.pot.algorithms.quantization.default.algorithm:Start computing statistics for algorithms : MinMaxQuantization,FastBiasCorrection
+INFO:openvino.tools.pot.algorithms.quantization.default.algorithm:Computing statistics finished
+INFO:openvino.tools.pot.pipeline.pipeline:Finished: DefaultQuantization
+ ===========================================================================
