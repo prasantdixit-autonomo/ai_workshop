@@ -17,7 +17,7 @@ sudo apt-get update && sudo apt-get install -y intel-dlstreamer-dev
 sudo -E /opt/intel/dlstreamer/install_dependencies/install_media_driver.sh
 
 # Setup OpenVINO and Intel® DL Streamer environment
-#source /opt/intel/openvino_2022/setupvars.sh
-#source /opt/intel/dlstreamer/setupvars.sh
+source /opt/intel/openvino_2022/setupvars.sh
+source /opt/intel/dlstreamer/setupvars.sh
 
 echo "Installation Complete !"
