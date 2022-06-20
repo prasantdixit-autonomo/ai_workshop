@@ -20,4 +20,6 @@ sudo -E /opt/intel/dlstreamer/install_dependencies/install_media_driver.sh
 source /opt/intel/openvino_2022/setupvars.sh
 source /opt/intel/dlstreamer/setupvars.sh
 
+unzip samples.zip
+
 echo "Installation Complete !"
